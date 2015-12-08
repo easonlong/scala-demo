@@ -8,7 +8,9 @@ import com.eason.Hello
 
 object HelloWorld{
   def main(args: Array[String]) {
-    print(new Hello().hello())
+    for( i<- 1 to 10){
+      println(new Hello().hello())
+    }
   }
 }
 
